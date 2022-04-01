@@ -1,0 +1,17 @@
+.question-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: $margin-big;
+    align-items: center;
+}
+
+ul.answers-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: $margin-big;
+    margin-left: auto;
+    margin-right: auto;
+}

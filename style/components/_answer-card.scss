@@ -1,0 +1,14 @@
+ul .answer-card {
+    width: 230px;
+    height: 65px;
+    line-height: 65px;
+    background-color: $darkBlue;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+
+    &:hover {
+        background-color: $darkBlueSelected;
+    }
+}

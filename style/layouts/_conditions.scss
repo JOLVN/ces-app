@@ -1,0 +1,15 @@
+.conditions-container {
+    display: flex;
+    flex-direction: column;
+    gap: $margin-big;
+
+    h2 {
+        text-align: left;
+        margin-bottom: $margin-little;
+    }
+
+    .logo img {
+        width: 150px;
+    }
+}
+

@@ -1,0 +1,44 @@
+.error-card {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 100%;
+    margin-top: $margin-medium;
+    height: auto;
+    width: fit-content;
+    padding: 5px $margin-little;
+    text-align: center;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.207);
+    border-radius: 10px;
+    opacity: 0;
+}
+ 
+
+@keyframes appear {
+    0% {
+        -webkit-transform: scaleX(0.4);
+        transform: translateX(-50%) scaleX(0);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: scaleX(1);
+        transform: translateX(-50%) scaleX(1);
+        opacity: 1;
+    }
+}
+
+@keyframes disappear {
+    0% {
+        -webkit-transform: scaleX(1);
+        transform: translateX(-50%) scaleX(1);
+        opacity: 1;
+    }
+    100% {
+        -webkit-transform: scaleX(0.4);
+        transform: translateX(-50%) scaleX(0);
+        opacity: 0; 
+    }
+}
+
+

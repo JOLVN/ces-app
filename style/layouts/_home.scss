@@ -1,0 +1,64 @@
+@import "../config/colors.scss";
+@import "../config/margins.scss";
+
+
+.logo {
+    text-align: center;
+    img {
+        width: 175px;
+    }
+}
+
+.rules {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: $margin-medium;
+    height: 100%;
+    h1 {
+        margin-bottom: $margin-little;
+    }
+}
+
+.lots {
+    display: flex;
+    justify-content: space-between;
+    & > div {
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .icon {
+        height: 61px;
+        position: relative;
+        margin-bottom: $margin-little;
+    }
+    img {
+        width: 61px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.ces-informations {
+    width: 75%;
+    margin-left: auto;
+    margin-right: auto;
+    p {
+        color: $lightBlue;
+    }
+}
+
+.bottom-page .conditions {
+    span {
+        color: $lightBlue;
+    }
+    color: $lightBlue;
+    display: block;
+    text-align: center;
+
+}

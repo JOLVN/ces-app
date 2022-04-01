@@ -1,0 +1,34 @@
+.results-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: $margin-medium;
+    margin-bottom: $margin-big;
+    min-height: 60vh;
+
+    h2 {
+        margin-bottom: $margin-big;
+    }
+
+    .text-3 {
+        color: $lightBlue;
+    }
+}
+
+.score {
+    width: 128px;
+    height: 128px;
+    position: relative;
+    border: 2px solid $yellow;
+    border-radius: 50%;
+
+    span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 28px;
+    }
+}
+

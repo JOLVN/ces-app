@@ -1,0 +1,27 @@
+@import "../config/colors.scss";
+@import "../config/margins.scss";
+
+.bottom-page {
+    position: relative;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.button {
+    position: relative;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    display: block;
+    width: 195px;
+    height: 49px;
+    line-height: 49px;
+    background-color: $yellow;
+    font-size: 16px;
+    font-weight: 700;
+    border-radius: 25px;
+    border: none;
+    text-decoration: none;
+    color: black;
+}

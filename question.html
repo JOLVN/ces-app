@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Questionnaire CES</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- Title -> Question number -->
+        <h1 class="text-1 title">Question number</h1>
+
+        <div class="question-container">
+
+            <!-- Question -->
+            <h2 class="text-2 question">Question</h2>
+
+            <!-- Answers -> added in Script -->
+            <div class="answers-container">
+                <ul class="answers-list"></ul>
+            </div>
+
+            <!-- Error card -> appears only when no question selected -->
+            <div class="error-card text-3">
+                Veuillez sélectionner une question
+            </div>
+        </div>
+
+        <!-- BOTTOM PAGE -->
+        <div class="bottom-page">
+            <!-- Button -->
+            <a class="button" href="#">
+                Suivant
+            </a>
+        </div>
+
+
+
+
+    </div>
+
+    <script type="module" src="./script/question.js"></script>
+
+</body>
+
+</html>

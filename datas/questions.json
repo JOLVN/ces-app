@@ -1,0 +1,27 @@
+[
+    {
+        "question": "Quel est le nom du fondateur du Consumer Electronics Show ?",
+        "answers": ["Bill Gates", "Steve Jobs", "Jack Wayman"],
+        "good_answer": "Jack Wayman"
+    },
+    {
+        "question": "En quelle année est lancé le CES pour la première fois ?",
+        "answers": ["1973", "1970", "1967"],
+        "good_answer": "1967"
+    },
+    {
+        "question": "Dans quelle ville s’est déroulé ce premier salon ?",
+        "answers": ["Los Angeles", "New York", "Chicago"],
+        "good_answer": "New York"
+    },
+    {
+        "question": "Quelle technologie fut présentée en avant-première au CES de 1996 ?",
+        "answers": ["RDS", "MP3", "DVD"],
+        "good_answer": "DVD"
+    },
+    {
+        "question": "Quel nom connu portent les interventions des présidents d’entreprises au CES ?",
+        "answers": ["Keynotes", "Tech Talks", "Pitchs"],
+        "good_answer": "Keynotes"
+    }
+]

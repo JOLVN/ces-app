@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+    <title>Questionnaire CES</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <!-- TITLE -->
+        <h1 class="text-1 title">Vos informations</h1>
+
+        <div class="form-container">
+
+            <!-- Form information -->
+            <div class="subtitle-form">
+                <h2 class="text-2">Dernière étape</h2>
+                <p class="text-3">Il ne vous reste plus qu’à entrer vos informations pour valider votre
+                    participation
+                </p>
+            </div>
+
+            <form class="form">
+
+                <!-- Inputs text -->
+                <div class="inputs-text">
+                    <div>
+                        <label class="text-2" for="fname">Prénom</label><br />
+                        <input type="text" id="fname" name="fname">
+                    </div>
+
+                    <div>
+                        <label class="text-2" for="lname">Nom</label><br />
+                        <input type="text" id="lname" name="lname">
+                    </div>
+
+                    <div>
+                        <label class="text-2" for="email">Addresse email</label><br />
+                        <input type="text" id="email" name="email">
+                    </div>
+                </div>
+
+                <!-- Input checkbox -->
+                <div class="inputs-checkbox">
+                    <div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="conditions" name="conditions" value="conditions">
+                            <span class="custom-checkbox"></span>
+                        </div>
+                        <label class="text-4" for="conditions">En cochant cette case, j’accepte les conditions
+                            générales*</label>
+                    </div>
+
+                    <div>
+                        <div class="checkbox-container">
+                            <input type="checkbox" id="news" name="news" value="news">
+                            <span class="custom-checkbox"></span>
+                        </div>
+                        <label class="text-4" for="news">J’accepte de recevoir les dernières actualités du salon
+                            CES</label>
+                    </div>
+                </div>
+
+            </form>
+
+            <!-- Error card -> appears only when no question selected -->
+            <div class="error-card text-3">
+                Veuillez sélectionner une question
+            </div>
+
+        </div>
+
+        <!-- BOTTOM PAGE -->
+        <div class="bottom-page">
+            <!-- Button -->
+            <a href="#" class="button">Je participe !</a>
+        </div>
+
+    </div>
+
+    <script type="module" src="./script/form.js"></script>
+</body>
+
+</html>
