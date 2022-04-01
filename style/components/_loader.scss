@@ -1,0 +1,22 @@
+.loader {
+    position: fixed;
+    z-index: 50;
+    overflow: hidden;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: $blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.loader img {
+    width: 100px;
+}
+
+.loader-unvisible {
+    opacity: 0;
+    transition: opacity 0.4s ease-out;
+}

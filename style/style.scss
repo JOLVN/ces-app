@@ -17,6 +17,7 @@
 @import "components/bottom-page.scss";
 @import "components/answer-card.scss";
 @import "components/error-card.scss";
+@import "components/loader.scss";
 
 
 *, ::before, ::after {
@@ -24,6 +25,7 @@
 	margin: 0;
 	padding: 0;
 }
+
 
 body {
     background-color: $blue;

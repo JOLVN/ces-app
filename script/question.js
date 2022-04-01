@@ -1,5 +1,6 @@
 import { findParameters } from './functions/findParameters.js'
 import { showError } from './functions/showError.js'
+import { loader } from './functions/loader.js'
 import questions from '../datas/questions.json' assert {type: 'json'};
 
 
@@ -28,6 +29,7 @@ class Question {
     }
 
     initEvents() {
+        loader()
         this.displayText()
         this.displayAnswers()
         this.generateButtonLink()

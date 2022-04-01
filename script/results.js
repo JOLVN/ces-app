@@ -1,5 +1,7 @@
 import questions from '../datas/questions.json' assert {type: 'json'};
+import { loader } from './functions/loader.js'
 import { findParameters } from './functions/findParameters.js'
+
 
 class Results {
 
@@ -19,6 +21,7 @@ class Results {
     }
 
     initEvents() {
+        loader()
         this.calculateScore()
         this.displayScore()
     }

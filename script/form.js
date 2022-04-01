@@ -1,5 +1,6 @@
 import { findParameters } from './functions/findParameters.js'
 import { showError } from './functions/showError.js'
+import { loader } from './functions/loader.js'
 
 class Form {
 
@@ -22,6 +23,7 @@ class Form {
     }
 
     initEvents() {
+        loader()
         this.generateButtonLink()
         this.inputEventListener(this.buttonElement)
     }

@@ -457,6 +457,39 @@ ul .answer-card:hover {
   }
 }
 
+.loader {
+  position: fixed;
+  z-index: 50;
+  overflow: hidden;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: #09354C;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.loader img {
+  width: 100px;
+}
+
+.loader-unvisible {
+  opacity: 0;
+  -webkit-transition: opacity 0.4s ease-out;
+  transition: opacity 0.4s ease-out;
+}
+
 *, ::before, ::after {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
